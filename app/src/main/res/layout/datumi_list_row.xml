@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/DatumiListYearDivider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="2020"
+        android:textSize="12sp"
+        android:textColor="@color/colorDarkSecondary"
+        android:layout_margin="10dp" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:elevation="1dp"
+        android:layout_margin="5dp">
+
+
+        <TextView
+            android:id="@+id/DatumiListDatum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Datum"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/DatumiListCounter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:gravity="right"
+            android:text="Counter"
+            android:textSize="24sp"
+            android:typeface="normal" />
+    </LinearLayout>
+</LinearLayout>
